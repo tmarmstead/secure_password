@@ -4,11 +4,6 @@
   box-sizing: border-box;
 }
 
-header {
-  font-family: helvetica;
-  color: orange;
-}
-
 html,
 body,
 .wrapper {
@@ -35,7 +30,11 @@ header {
   padding: 20px;
   padding-top: 0px;
   color: hsl(206, 17%, 28%);
-  background-color: orange;
+  font-family: helvetica;
+}
+
+h2 {
+  text-align: center;
 }
 
 .card {
