@@ -5,7 +5,6 @@ var generateBtn = document.querySelector("#generate");
 function writePassword() {
   var password = generatePassword();
   var passwordText = document.querySelector("#password");
-
   passwordText.value = password;
 }
 
@@ -54,11 +53,6 @@ function generatePassword() {
         console.log(final);
 }
     return final;
-
-
-
-// console.log(potPull);
-// console.log(charPot);
 }
 
 generatePassword();
