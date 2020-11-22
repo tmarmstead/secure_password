@@ -14,8 +14,7 @@ body,
 
 body {
   font-family: sans-serif;
-  background-color: orange;
-  /* background-color: #f9fbfd; */
+  background-color: #f9fbfd;
 }
 
 .wrapper {
